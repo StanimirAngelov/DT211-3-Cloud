@@ -8,6 +8,8 @@ def sequence(n):
 i = 1
 j = 0
 total = 0
+
+
 while j < 4000000:
     j = sequence(i)
     if j%2:
@@ -16,5 +18,5 @@ while j < 4000000:
         print(j)
         total = total + j
     i+=1
-print("total is")
+print("the sum of the even-valued terms")
 print(total)
