@@ -1,0 +1,16 @@
+n = 13195 # set up n to the result we need
+i = 2 # i=2 as 2 is needed to get prime facotor 
+while i * i < n: #while loop starting from the smolles number * by number to find prime and to be less then number we need
+    while n % i == 0: #inner while biggest number devide into the smallest 
+        n = n / i #until biggest number is devisible by 2
+    i = i + 1 #incrementing i +1 every run until while is not true
+print (n)
+
+
+n = 600851475143 # set up n to the result we need
+i = 2 # i=2 as 2 is needed to get prime facotor 
+while i * i < n: #while loop starting from the smolles number * by number to find prime and to be less then number we need
+    while n % i == 0: #inner while biggest number devide into the smalles ==0
+        n = n / i #until biggest number is devisible by 2
+    i = i + 1 #incrementing i +1 every run until while is not true
+print (n)
